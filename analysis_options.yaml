@@ -14,6 +14,7 @@
 analyzer:
   errors:
     camel_case_types: ignore
+    non_constant_identifier_names: ignore
 include: package:lints/recommended.yaml
 # Uncomment the following section to specify additional rules.
 

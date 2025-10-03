@@ -1,8 +1,8 @@
-/// Support for doing something awesome.
+/// Library for validation and formatting of international documents.
 ///
-/// More dartdocs go here.
+/// document formatting and compaction.
 library;
 
 export 'src/index.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/exceptions.dart';
+export 'src/interfaces/document_interface.dart';
