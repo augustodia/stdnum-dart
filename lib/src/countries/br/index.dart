@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
-import 'package:stdnum_dart/src/br/cpf.dart';
 import 'package:stdnum_dart/src/countries/br/cnpj.dart';
+import 'package:stdnum_dart/src/countries/br/cpf.dart';
 
 class BR {
   static final BR _instance = BR._internal();
