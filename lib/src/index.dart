@@ -12,6 +12,7 @@ import 'package:stdnum_dart/src/countries/pu/index.dart' as pu;
 import 'package:stdnum_dart/src/countries/py/index.dart' as py;
 import 'package:stdnum_dart/src/countries/us/index.dart' as us;
 import 'package:stdnum_dart/src/countries/uy/index.dart' as uy;
+import 'package:stdnum_dart/src/countries/ve/index.dart' as ve;
 
 class StdnumDart {
   static final StdnumDart _instance = StdnumDart._internal();
@@ -32,4 +33,5 @@ class StdnumDart {
   py.PY get PY => py.PY();
   us.US get US => us.US();
   uy.UY get UY => uy.UY();
+  ve.VE get VE => ve.VE();
 }
