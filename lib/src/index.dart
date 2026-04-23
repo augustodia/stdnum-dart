@@ -1,6 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:stdnum_dart/src/countries/ar/index.dart' as ar;
+import 'package:stdnum_dart/src/countries/bo/index.dart' as bo;
 import 'package:stdnum_dart/src/countries/br/index.dart' as br;
 import 'package:stdnum_dart/src/countries/cl/index.dart' as cl;
 import 'package:stdnum_dart/src/countries/ec/index.dart' as ec;
@@ -20,6 +21,7 @@ class StdnumDart {
   factory StdnumDart() => _instance;
 
   ar.AR get AR => ar.AR();
+  bo.BO get BO => bo.BO();
   br.BR get BR => br.BR();
   cl.CL get CL => cl.CL();
   ec.EC get EC => ec.EC();
