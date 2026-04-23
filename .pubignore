@@ -1,5 +1,5 @@
 .dart_tool/
-doc/api/
+doc/
 pubspec.lock
 example/.dart_tool/
 example/pubspec.lock

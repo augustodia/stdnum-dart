@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:stdnum_dart/src/countries/ec/ci.dart';
 import 'package:stdnum_dart/src/exceptions.dart';
 import 'package:stdnum_dart/src/helpers/utils.dart';
