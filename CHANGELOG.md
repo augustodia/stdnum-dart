@@ -1,3 +1,7 @@
+## 0.2.0
+
+- Addes support for the new Brazilian alphanumeric CNPJ check digit calculation.
+
 ## 0.1.0
 
 - Initial public release preparation for `pub.dev`.
