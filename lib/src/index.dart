@@ -1,6 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
-import 'package:stdnum_dart/src/countries/br/index.dart' as countries;
+import 'package:stdnum_dart/src/countries/br/index.dart' as br;
+import 'package:stdnum_dart/src/countries/mx/index.dart' as mx;
 
 class StdnumDart {
   static final StdnumDart _instance = StdnumDart._internal();
@@ -9,5 +10,6 @@ class StdnumDart {
 
   factory StdnumDart() => _instance;
 
-  countries.BR get BR => countries.BR();
+  br.BR get BR => br.BR();
+  mx.MX get MX => mx.MX();
 }
