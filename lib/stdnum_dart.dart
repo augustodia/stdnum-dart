@@ -1,6 +1,6 @@
-/// Library for validation and formatting of international documents.
+/// Validation, compaction, and formatting of international document numbers.
 ///
-/// document formatting and compaction.
+/// Validators are grouped by country namespace through [StdnumDart].
 library;
 
 export 'src/index.dart';

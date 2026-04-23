@@ -1,2 +1,9 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# stdnum_dart example
+
+Run this example with:
+
+```sh
+dart run example/lib/example.dart
+```
+
+It demonstrates validation, formatting, compacting, and exception handling.
