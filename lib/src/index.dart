@@ -5,6 +5,7 @@ import 'package:stdnum_dart/src/countries/br/index.dart' as br;
 import 'package:stdnum_dart/src/countries/cl/index.dart' as cl;
 import 'package:stdnum_dart/src/countries/mx/index.dart' as mx;
 import 'package:stdnum_dart/src/countries/py/index.dart' as py;
+import 'package:stdnum_dart/src/countries/uy/index.dart' as uy;
 
 class StdnumDart {
   static final StdnumDart _instance = StdnumDart._internal();
@@ -18,4 +19,5 @@ class StdnumDart {
   cl.CL get CL => cl.CL();
   mx.MX get MX => mx.MX();
   py.PY get PY => py.PY();
+  uy.UY get UY => uy.UY();
 }
