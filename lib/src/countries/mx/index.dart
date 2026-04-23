@@ -1,5 +1,6 @@
 // ignore_for_file: non_constant_identifier_names
 
+import 'package:stdnum_dart/src/countries/mx/ine.dart';
 import 'package:stdnum_dart/src/countries/mx/rfc.dart';
 
 class MX {
@@ -9,5 +10,6 @@ class MX {
 
   factory MX() => _instance;
 
+  MX_INE get INE => MX_INE();
   MX_RFC get RFC => MX_RFC();
 }
